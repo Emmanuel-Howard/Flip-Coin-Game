@@ -1,44 +1,46 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:0;
+    box-sizing:0;  /* Box-sizing either includes padding / border or doesn't */
     font-family: 'Times New Roman', Times, serif;
 }
-
+ 
 body{
     height: 100%;
     background: linear-gradient(to right, #575ce5 50%, #f9fbfc 50%)
     fixed;
 }
 
-.container{
+.container{  /* Everything in the body */
     background: white;
     width: 400px;
     padding: 50px;
-    position: absolute;
+    position: absolute; /* Positioned relative to nearest positioned ancestor */
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 50%; /* These 3 lines of code center the element by half
+                of its own width and height */
     left: 50%;
     box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    perspective: 300px;
+    perspective: 300px; /* Defines how far the viewer is. Smaller value (ex. 100px vs 1000px)
+                           Creates a stronger depth effect */
 }
 
-.stats{
+.stats{  /* The heads and tails count */
     text-align: right;
     color: black;
     font-weight: 500;
-    line-height:25px;
+    line-height:25px;  /* Basically spacing */
 }
 .coin{
     height: 150px;
     width: 150px;
-    position: relative;
+    position: relative; /* Will still occupy space in the layout (vs absolute or fixed) */
     margin: 50px auto;
     transform-style: preserve-3d;
 }
 .tails{
-    transform: rotateX(180deg);
+    transform: rotateX(180deg); /* Rotates image 180 degrees (upsude down) */
 }
 .buttons{
     display: flex;
