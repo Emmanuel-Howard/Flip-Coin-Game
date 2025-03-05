@@ -15,4 +15,18 @@ body{
     background: white;
     width: 400px;
     padding: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    perspective: 300px;
+}
+
+.stats{
+    text-align: right;
+    color: black;
+    font-weight: 500;
+    line-height:25px;
 }
