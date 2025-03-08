@@ -46,7 +46,7 @@ body{
     display: flex;
     justify-content: space-between;
 }
-button{
+button{  /* Both buttons */
     width: 100px;
     padding: 18px 0px;
     border: 2.5px solid #424ae0;
@@ -57,7 +57,7 @@ button{
     background: #424ae0;
     color: #fff;
 }
-flip-button:disabled{
+flip-button:disabled{   /* Flip button when occupied */
     background-color: #e1e0ee;
     color: #101020;
     border-color: #e1e0ee;
@@ -67,6 +67,7 @@ flip-button:disabled{
     color: #424ae0;
 }
 
+/* Setting up keyframe animations */
 @keyframes spin-tails{
     0%{
         transform: rotateX(0);
