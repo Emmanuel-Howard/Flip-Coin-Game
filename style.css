@@ -46,3 +46,10 @@ body{
     display: flex;
     justify-content: space-between;
 }
+button{
+    width: 100px;
+    padding: 18px 0px;
+    border: 2.5px solid #424ae0;
+    border-radius: 5px;
+    cursor: pointer;
+}
