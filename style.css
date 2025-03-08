@@ -53,3 +53,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+#flipBtn{
+    background: #424ae0;
+    color: #fff;
+}
