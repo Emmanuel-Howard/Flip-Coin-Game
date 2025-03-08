@@ -62,3 +62,25 @@ flip-button:disabled{
     color: #101020;
     border-color: #e1e0ee;
 }
+#resetBtn{
+    background: #fff;
+    color: #424ae0;
+}
+
+@keyframes spin-tails{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(1980deg);
+    }
+}
+
+@keyframes spin-heads{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(2160deg);
+    }
+}
