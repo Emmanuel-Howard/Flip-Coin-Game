@@ -4,4 +4,4 @@ An online coin flip game that lets the User flip a coin: Head vs Tails.
 ## Features
 - Keyframe Animations
 - UI Design
-- CSS Layout
+- Reset and Flip Capabilities
