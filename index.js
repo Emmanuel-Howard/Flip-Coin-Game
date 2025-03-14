@@ -22,3 +22,11 @@ flipBtn.addEventListener("click", ()=>{
     setTimeout(updateStats, 3000);
     disableButton();
 });
+
+function updateStats(){
+    document.querySelector("#heads-count").textContent = `Heads: $
+    {heads}`;
+    document.querySelector("#tails-count").textContent = `Tails: $
+    {tails}`;
+}
+
