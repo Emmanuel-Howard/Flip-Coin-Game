@@ -36,3 +36,9 @@ function disableBtn(){
         flipBtn.disable = false;
     }, 3000);
 }
+
+resetBtn.addEventListener("click", ()=>{
+    coin.style.animation = "none";
+    heads = 0;
+    tails = 0;
+    updateStats();
