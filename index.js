@@ -30,3 +30,9 @@ function updateStats(){
     {tails}`;
 }
 
+function disableBtn(){
+    flipBtn.disable = true;
+    setTimeout(function(){
+        flipBtn.disable = false;
+    }, 3000);
+}
